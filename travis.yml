@@ -27,4 +27,5 @@ script:
 notifications:
   email:
     - wdelenclos@gmail.com
+
   slack: esgi-iw:jMKTnfcE3dCoMIaUT3isyCbk
