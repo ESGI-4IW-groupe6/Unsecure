@@ -44,15 +44,10 @@ class UserRepository extends EntityRepository
      */
     public function loginQuery($username, $hashedPassword)
     {
-        // Use raw query because don't need of Doctrine here...
-        $sql = "select * from user where pseudo = '$username' and password = '$hashedPassword'";
-        
-        try {
-            $results = $this->_em->getConnection()->fetchAll($sql);
-        } catch (\Exception $e) {
-            echo $e->getMessage(); // Debug
-            exit;
-        }
+        $results = $qb->select('u')
+               ->from('user', 'u')
+               ->where('u.pseudo = '.$username)
+               ->andWhere('u.password = '.$hashedPassword)
         
         if (count($results) > 0) {
             $user = new User();
