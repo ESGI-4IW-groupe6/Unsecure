@@ -11,6 +11,7 @@ Unsecure is a website in Symfony 2.3 containing security breach :blush:
 
 ## Installation
 
+
 ### Step1
 
 #### Make a git clone of the project:
@@ -39,7 +40,7 @@ Unsecure is a website in Symfony 2.3 containing security breach :blush:
 
 #### To turn off the containers:
 `` 
-    docker-compose down 
+   docker-compose down 
 `` 
 #### To display the containers:
 `` 
