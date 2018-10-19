@@ -11,44 +11,44 @@ Unsecure is a website in Symfony 2.3 containing security breach :blush:
 
 ## Installation
 
-##Step1
+### Step1
 
-###Make a git clone of the project:
-`` `
+#### Make a git clone of the project:
+`` 
     git clone <URL de git> 
-`` `    
-##Step2
+``     
+### Step2
 
-###Go to the clone folder:
-`` `
+#### Go to the clone folder:
+`` 
     docker-compose build 
-`` `
-##Step3
+`` 
+### Step3
 
-###Install Vendor:
-`` `
+#### Install Vendor:
+`` 
     docker run --rm -v $PWD:/app composer install
-`` `
-##Step4
+`` 
+### Step4
 
-###Launch the containers:
-`` `
+#### Launch the containers:
+`` 
     docker-compose up -d
-`` `
-##Useful tools:
+`` 
+### Useful tools:
 
-###To turn off the containers:
-`` `
+#### To turn off the containers:
+`` 
     docker-compose down 
-`` `
-###To display the containers:
-`` `
+`` 
+#### To display the containers:
+`` 
     docker ps 
-`` `
-###To view the images:
-`` `
+`` 
+#### To view the images:
+`` 
     docker images
-`` `
+`` 
         
 
 ---
