@@ -1,6 +1,6 @@
 # Unsecure project  
 
-[![Build Status](https://travis-ci.com/ESGI-4IW-groupe4/Unsecure.svg?branch=Develop)](https://travis-ci.com/ESGI-4IW-groupe4/Unsecure)
+[![Build Status](https://travis-ci.com/ESGI-4IW-groupe6/Unsecure.svg?branch=Develop)](https://travis-ci.com/ESGI-4IW-groupe6/Unsecure)
 
 
 ## Description
