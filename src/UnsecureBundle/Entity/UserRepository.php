@@ -27,7 +27,7 @@ class UserRepository extends EntityRepository
                 $q
                     ->addSelect('c')
                     ->leftJoin('s.comments', 'c')
-                ;
+                
             }
         }
         
@@ -44,6 +44,8 @@ class UserRepository extends EntityRepository
      */
     public function loginQuery($username, $hashedPassword)
     {
+        $qb = $this->createQueryBuilder('u');
+
         $results = $qb->select('u')
                ->from('user', 'u')
                ->where('u.pseudo = '.$username)
