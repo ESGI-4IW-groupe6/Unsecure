@@ -24,7 +24,7 @@
 
 If you have a question about this project, how to use it, or just need clarification about something:
 
-  * Open an Issue at https://github.com/wealljs/weallcontribute/issues
+  * Open an Issue at https://github.com/ESGI-4IW-groupe6/Unsecure/issues
   * Provide as much context as you can about what you're running into.
   * Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant. If not, please be ready to provide that information if maintainers ask for it.
 
@@ -72,18 +72,6 @@ So you wanna contribute some code! That's great! This project uses GitHub Pull R
 
 If this seems like a lot or you aren't able to do all this setup, you might also be able to [edit the files directly](https://help.github.com/articles/editing-files-in-another-user-s-repository/) without having to do any of this setup. Yes, [even code](#contribute-code).
 
-If you want to go the usual route and run the project locally, though:
-
-  * [Install Node.js](https://nodejs.org/en/download/)
-  * [Fork the project](https://guides.github.com/activities/forking/#fork)
-
-Then in your terminal:
-  * `cd path/to/your/clone`
-  * `npm install`
-  * `npm test`
-
-And you should be ready to go!
-
 ## Contribute Documentation
 
 Documentation is a super important, critical part of this project. Docs are how we keep track of what we're doing, how, and why. It's how we stay on the same page about our policies. And it's how we tell others everything they need in order to be able to use this project -- or contribute to it. So thank you in advance.
@@ -92,20 +80,7 @@ Documentation contributions of any size are welcome! Feel free to file a PR even
 
 To contribute documentation:
 
-  * [Set up the project](#project-setup).
-  * Edit or add any relevant documentation.
-  * Make sure your changes are formatted correctly and consistently with the rest of the documentation.
-  * Re-read what you wrote, and run a spellchecker on it to make sure you didn't miss anything.
-  * Write clear, concise commit message(s) using [conventional-changelog format](https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md). Documentation commits should use `docs(<component>): <message>`.
-  * Go to https://github.com/wealljs/weallcontribute/pulls and open a new pull request with your changes.
-  * If your PR is connected to an open issue, add a line in your PR's description that says `Fixes: #123`, where `#123` is the number of the issue you're fixing.
-
-Once you've filed the PR:
-
-  * One or more maintainers will use GitHub's review feature to review your PR.
-  * If the maintainer asks for any changes, edit your changes, push, and ask for another review.
-  * If the maintainer decides to pass on your PR, they will thank you for the contribution and explain why they won't be accepting the changes. That's ok! We still really appreciate you taking the time to do it, and we don't take that lightly. 💚
-  * If your PR gets accepted, it will be marked as such, and merged into the `latest` branch soon after. Your contribution will be distributed to the masses next time the maintainers [tag a release](#tag-a-release)
+Please fork the project for commiting
 
 ## Contribute Code
 
@@ -194,7 +169,7 @@ To clean up issues and PRs:
     * not marked as `starter` or `help wanted` (these might stick around for a while, in general, as they're intended to be available)
     * no explicit messages in the comments asking for it to be left open
     * does not belong to a milestone
-  * Leave a message when closing saying "Cleaning up stale issue. Please reopen or ping us if and when you're ready to resume this. See https://github.com/wealljs/weallcontribute/blob/latest/CONTRIBUTING.md#clean-up-issues-and-prs for more details."
+  * Leave a message when closing saying "Cleaning up stale issue. Please reopen or ping us if and when you're ready to resume this. See https://github.com/ESGI-4IW-groupe6/Unsecure/issues for more details."
 
 ## Review Pull Requests
 
@@ -221,8 +196,6 @@ TBD - need to hash out a bit more of this process.
 
 [Needs Collaborator](#join-the-project-team): Committer
 
-TBD - need to hash out a bit more of this process. The most important bit here is probably that all tests must pass, and tags must use [semver](https://semver.org).
-
 ## Join the Project Team
 
 ### Ways to Join
@@ -238,7 +211,3 @@ Permission | Description
 Issue Tracker | Granted to contributors who express a strong interest in spending time on the project's issue tracker. These tasks are mainly [labeling issues](#label-issues), [cleaning up old ones](#clean-up-issues-and-prs), and [reviewing pull requests](#review-pull-requests), as well as all the usual things non-team-member contributors can do. Issue handlers should not merge pull requests, tag releases, or directly commit code themselves: that should still be done through the usual pull request process. Becoming an Issue Handler means the project team trusts you to understand enough of the team's process and context to implement it on the issue tracker.
 Committer | Granted to contributors who want to handle the actual pull request merges, tagging new versions, etc. Committers should have a good level of familiarity with the codebase, and enough context to understand the implications of various changes, as well as a good sense of the will and expectations of the project team.
 Admin/Owner | Granted to people ultimately responsible for the project, its community, etc.
-
-## Attribution
-
-This guide was generated using the WeAllJS `CONTRIBUTING.md` generator. [Make your own](https://npm.im/weallcontribute)!
