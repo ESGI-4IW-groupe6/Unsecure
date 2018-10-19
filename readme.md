@@ -1,6 +1,6 @@
 # Unsecure project  
 
-[![Build Status](https://travis-ci.com/ESGI-4IW-groupe4/Unsecure.svg?branch=Develop)](https://travis-ci.com/ESGI-4IW-groupe4/Unsecure)
+[![Build Status](https://travis-ci.com/ESGI-4IW-groupe6/Unsecure.svg?branch=Develop)](https://travis-ci.com/ESGI-4IW-groupe6/Unsecure)
 
 
 ## Description
@@ -30,9 +30,12 @@ This project is under MIT license. You can found them [here](LICENSE)
 ## Contributing
 
 Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct, and the process for submitting pull requests to us.
-See also [CONTRIBUTING.md](CONTRIBUTING.md) to see how to contribute on our project, 
-[PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) to see how to create a PR as we ask for and finally 
-[ISSUE_TEMPLATE.md](ISSUE_TEMPLATE.md) to see how to create great issues on our project.
+
+See also :
+- [CONTRIBUTING.md](CONTRIBUTING.md) to see how to contribute on our project.
+- [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) to see how to create a PR as we ask for.
+- [ISSUE_TEMPLATE.md](ISSUE_TEMPLATE.md) to see how to create great issues on our project.
+
 ---
 
 ## Authors
