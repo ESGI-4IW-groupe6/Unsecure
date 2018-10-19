@@ -1,15 +1,16 @@
 language: php
+
+services:
+  - docker
 php:
   - '5.6'
   - '7.0'
 allow_failures:
   - php: 7.0
 script: 
-  -  curl -L https://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -o php-cs-fixer
-  -  sudo chmod a+x php-cs-fixer
-  -  php php-cs-fixer fix . -vv --dry-run
+  -  docker run --rm -v $PWD:/app phpqa/php-cs-fixer fix . --dry-run
 notifications:
   email:
     - wdelenclos@gmail.com
-  slack: esgi-iw:jMKTnfcE3dCoMIaUT3isyCbk 
+  slack: esgi-iw:jMKTnfcE3dCoMIaUT3isyCbk
 
