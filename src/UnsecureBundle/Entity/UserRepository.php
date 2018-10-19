@@ -47,7 +47,7 @@ class UserRepository extends EntityRepository
         $results = $qb->select('u')
                ->from('user', 'u')
                ->where('u.pseudo = '.$username)
-               ->andWhere('u.password = '.$hashedPassword)
+               ->andWhere('u.password = '.$hashedPassword);
         
         if (count($results) > 0) {
             $user = new User();
